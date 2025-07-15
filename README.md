@@ -7,21 +7,23 @@
 
 ---
 
-## 📦 目录结构
+## 🚀 Quick Start
 
-```text
-Extracting-Pedestrian-Trajectory-Using-YOLOv11/
-├── data/                     
-├── weights/                 
-│   └── pedestrian_tracking_best.pt
-├── docs/                     
-├── src/
-│   ├── data_preprocessing.py
-│   ├── Pedestrian_Tracking.py
-│   ├── train_model.py
-│   └── visualization.py
-├── .gitignore
-├── .gitattributes          
-├── requirements.txt
-├── LICENSE
-└── README.md
+1. **Clone repository**  
+   ```bash
+   git clone https://github.com/Chen-GZHU/Extracting-Pedestrian-Trajectory-Using-YOLOv11.git
+   cd Extracting-Pedestrian-Trajectory-Using-YOLOv11
+2. **Install dependencies**
+   ```bash
+    pip install -r requirements.txt
+3. **Extract trajectories**
+    ```bash
+    python src/Pedestrian_Tracking.py \
+      --input path/to/video.mp4 \
+      --output path/to/trajectories.csv \
+      --conf-thres 0.4 \
+      --iou-thres 0.45
+4. **Visualize results**
+    ```bash
+    python src/visualization.py
+
