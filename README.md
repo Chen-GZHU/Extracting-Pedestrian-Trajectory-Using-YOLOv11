@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)  
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)  
 
-> 从视频中使用 YOLOv11 自动提取行人轨迹，并生成可视化结果。
+> Automatically extract pedestrian trajectories from videos using YOLOv11 and generate visualization results.
 
 ---
 
